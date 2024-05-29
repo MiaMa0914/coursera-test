@@ -6,45 +6,35 @@ body {
 }
 
 /** header **/
-#header-nav {
+div.container-fluid {
   background-color: #7f7f7f;
   border-radius: 0;
   border: 0;
-  height: 80px;
 }
 
 .navbar-brand {
-  padding-top: 25px;
-}
-.navbar-brand h1{
+  padding-top: 20px;
   color: #000000;
   font-size: 1.8em;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
-#nav-list {
+a.nav-link {
   background-color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-}
-#nav-list a {
+  width: 100%;
   color: #000000;
   text-align: center;
   border: 1px solid black;
+  font-size: 1.3em;
 }
-#nav-list a:hover {
+a.nav-link:hover {
   background-color: #c0c0c0;
 }
-#nav-list a span {
-  font-size: 1.8em;
-}
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+button.navbar-toggler {
   border: 2px solid #000000;
 }
 
@@ -67,7 +57,6 @@ h2 {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #000;
   background-color: #7f7f7f;
   overflow: hidden;
   }
