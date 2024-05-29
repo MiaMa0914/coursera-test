@@ -10,7 +10,7 @@ body {
   background-color: #7f7f7f;
   border-radius: 0;
   border: 0;
-  height: 70px;
+  height: 80px;
 }
 
 .navbar-brand {
@@ -18,7 +18,7 @@ body {
 }
 .navbar-brand h1{
   color: #000000;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
